@@ -8,6 +8,7 @@ body {
   font-family: 'roboto', sans-serif;
   color: var(--text-color);
 }
+
 .list {
   list-style: none;
 }
@@ -82,8 +83,6 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
