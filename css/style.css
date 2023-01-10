@@ -15,9 +15,19 @@ body {
 .link {
   text-decoration: none;
 }
+.container {
+width: 1158px;
+padding-left: 15px;
+padding-right: 15px;
+margin-left: auto;
+margin-right: auto;
+outline: 2px solid var(--button-color);
+}
 
 /* -------------------------HEADER---------------------- */
 .top-header {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .top-navigation {
 }
@@ -26,8 +36,6 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--desk-color);
@@ -97,6 +105,11 @@ body {
 }
 
 /* -----------------SLOGAN------------------------- */
+.slogan-sec{
+padding-top: 120px;
+padding-bottom: 120px;
+}
+
 .slogan {
   position: absolute;
   width: 1px;
@@ -108,6 +121,10 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.slogan-item{
+  width: 264px;
 }
 
 .subtitle-slogan {
