@@ -127,7 +127,6 @@ img {
   padding-bottom: 192px;
 }
 
-
 .hero-btn {
   min-width: 170px;
   height: 51px;
@@ -171,7 +170,7 @@ img {
   min-height: 104px;
 }
 
-.title-slogan{
+.title-slogan {
   font-family: inherit;
   font-weight: 500;
   font-size: 20px;
@@ -359,7 +358,7 @@ img {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  gap: 24px;
   padding-bottom: 20px;
 }
 .list {
